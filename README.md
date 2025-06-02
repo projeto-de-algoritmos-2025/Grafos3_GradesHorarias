@@ -55,17 +55,15 @@ Este projeto permite visualizar, de forma prática, como **algoritmos gulosos** 
 Aqui está disponível o [vídeo]()  da apresentação do projeto.
 
 ## Screenshots
-Funcionamento do Interval Schedule:
-<center>
+#### Funcionamento do Interval Scheduling:
+<p align="center">
   <img src="assets/scheduling.png" alt="IntervalScheduling">
-  
-</center>
+</p>
 
-Funcionamento do Interval Partitioning:
-<center>
-  <img src="assets/dfs.png" alt="IntervalPartitioning">
-
-</center>
+#### Funcionamento do Interval Partitioning:
+<p align="center">
+  <img src="assets/partitioning.png" alt="IntervalPartitioning">
+</p>
 
 ## Instalação 
 **Linguagem**: Python (qualquer versão a partir da versão partir da 3.6.)<br>
