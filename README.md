@@ -12,7 +12,7 @@
 ## Sobre 
 # Projeto de Aplicação: Organização de Grades Horárias com Interval Scheduling e Interval Partitioning
 
-Para explorar os conceitos abordados na disciplina de **Grafos 1**, a dupla escolheu desenvolver uma aplicação prática simulando o processo de montagem de **grades horárias para professores**, onde os horários de aulas são representados como **intervalos de tempo**. O objetivo é organizar essas aulas de forma eficiente, minimizando conflitos e otimizando o uso de salas ou horários disponíveis.
+Para explorar os conceitos abordados na disciplina de **Grafos 3**, a dupla escolheu desenvolver uma aplicação prática simulando o processo de montagem de **grades horárias para professores**, onde os horários de aulas são representados como **intervalos de tempo**. O objetivo é organizar essas aulas de forma eficiente, minimizando conflitos e otimizando o uso de salas ou horários disponíveis.
 
 O projeto foi dividido de forma a equilibrar o trabalho entre os integrantes, com cada um responsável por implementar e testar partes específicas da lógica de **algoritmos gulosos**, como o **Interval Scheduling** (agendamento ótimo de aulas) e o **Interval Partitioning** (particionamento de aulas em diferentes faixas horárias ou salas).
 

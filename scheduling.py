@@ -16,7 +16,7 @@ def interval_scheduling(atividades):
     atividades_selecionadas = []
     ultimo_fim = 0
 
-    for atividade in atividades_ordenadas:
+    for atividade in atividades_ordenadas:  
         if atividade['inicio'] >= ultimo_fim:
             atividades_selecionadas.append(atividade['id'])
             ultimo_fim = atividade['fim'] # Atualiza o tempo de término da última atividade selecionada
@@ -26,7 +26,7 @@ def interval_scheduling(atividades):
 try:
     with open('aulas.json', 'r') as f:
         dados = json.load(f)
-        lista_aulas = dados.get('aulas', [])
+        lista_aulas = dados.get('aulas', []) # Obtém a lista de aulas ou uma lista vazia
 except FileNotFoundError:
     print("Erro: Arquivo 'aulas.json' não encontrado no diretório atual.")
     exit()
@@ -42,6 +42,7 @@ else:
 
     print("Aulas selecionadas (Interval Scheduling):")
     if aulas_selecionadas:
+        # Busca os dados da aula selecionada para exibição detalhada
         for aula_id in aulas_selecionadas:
             # Encontra os detalhes da aula selecionada para exibição 
             detalhes_aula = next((aula for aula in lista_aulas if aula['id'] == aula_id), None)
