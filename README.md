@@ -52,7 +52,7 @@ Este projeto permite visualizar, de forma prática, como **algoritmos gulosos** 
 
 
 ### Vídeo da Apresentação:
-Aqui está disponível o [vídeo]()  da apresentação do projeto.
+Aqui está disponível o [vídeo](https://youtu.be/PoNawF-GF9s?feature=shared) da apresentação do projeto.
 
 ## Screenshots
 #### Funcionamento do Interval Scheduling:
